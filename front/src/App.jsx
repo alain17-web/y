@@ -3,41 +3,29 @@ import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Footer from "./components/Footer.jsx";
 import Register from "./pages/Register.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 function App() {
 
-    const Layout = () => {
-        return (
-            <div className="w-screen h-screen">
-                <div className="w-full">
-                    <Outlet/>
-                </div>
-                <div>
-                    <Footer/>
-                </div>
-            </div>
-        )
-    }
 
     const router = createBrowserRouter([
+
         {
             path: "/",
-            element: <Layout/>,
-            children: [
-                {
-                    path: "/",
-                    element: <Home/>
-                },
-                {
-                    path: "/login",
-                    element: <Login/>
-                },{
-                    path: "/register",
-                    element: <Register/>
-                },
-            ]
-
-        }
+            element: <Home/>
+        },
+        {
+            path: "/login",
+            element: <Login/>
+        },
+        {
+            path: "/register",
+            element: <Register/>
+        },
+        {
+            path: "/dashboard",
+            element: <Dashboard/>
+        },
     ])
 
     return <RouterProvider router={router}/>

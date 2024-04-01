@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
  const Sidebar = () => {
     return (
-        <div className="flex flex-col mt-12 w-[20%] h-[100vh] gap-10 border border-r-gray-200">
+        <div className="flex flex-col mt-12 w-[20%] h-[100vh] gap-10  border-r border-gray-200 fixed top-28 left-0">
 
             <NavLink className="flex items-center ml-16">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 const SectionHeader = () => {
     return (
         <>
-            <div className={"h-auto pb-8 border-2 border-b-gray-100"}>
+            <div className={"h-auto pb-8 border-2 border-gray-100 mt-16 z-10"}>
                 <div className={"flex items-center justify-start ml-4 mt-4"}>
                     <img src="./img/jsnow.webp" alt="John Snow" className="rounded-full object-cover w-full h-full"
                          style={{width: '80px', height: '80px'}}/>
@@ -57,7 +57,7 @@ const SectionHeader = () => {
                     </button>
                 </div>
             </div>
-            <div className={"py-6 text-center border-2 border-b-gray-100"}>
+            <div className={"py-6 text-center border-b-2 border-gray-100"}>
                 <Link to={"#"} className={"font-inter text-xl text-[#1B8CD8] cursor-pointer"}>Show 1260 posts</Link>
             </div>
         </>

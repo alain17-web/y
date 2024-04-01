@@ -6,11 +6,12 @@ import RightSidebar from "../components/RightSidebar.jsx";
 const Dashboard = () => {
     return (
         <div>
-           <Topbar/>
+            <Topbar/>
             <div className="flex">
                 <Sidebar/>
                 <MainSection/>
                 <RightSidebar/>
+
             </div>
         </div>
     );

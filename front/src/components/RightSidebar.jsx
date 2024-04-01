@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 
 const RightSidebar = () => {
     return (
-        <div className="flex flex-col mt-12 w-[25%] h-[100vh] gap-10 border border-r-gray-200">
+        <div className="flex flex-col mt-12 w-[25%] h-[100vh] gap-10 border-r border-gray-200 fixed top-26 right-0">
 
             {/*Premium*/}
             <div className={"mt-12 h-auto mx-auto ml-8 mr-5 bg-[#F7F9F9] p-4 rounded-xl"}>
@@ -11,7 +11,7 @@ const RightSidebar = () => {
                     share of ads revenue.</p>
                 <button
                     className="flex w-[50%] h-14  mt-4 justify-center items-center rounded-3xl px-6 bg-black cursor-pointer">
-                    <p className="text-xl text-white font-inter font-bold cursor-pointer">Subscribe</p>
+                    <p className="text-xl text-white font-inter font-bold">Subscribe</p>
                 </button>
             </div>
 
@@ -120,6 +120,17 @@ const RightSidebar = () => {
                 </div>
                 <p className={"font-extrabold text-xl"}>Happy Easter</p>
                 <p className={"font-inter text-lg"}>1.9M posts</p>
+
+                <div className={"flex items-center justify-between mt-6"}>
+                    <p className={"font-inter text-lg"}>4 - Trending</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                         className="bi bi-three-dots cursor-pointer" viewBox="0 0 16 16">
+                        <path
+                            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+                    </svg>
+                </div>
+                <p className={"font-extrabold text-xl"}>#demol</p>
+                <p className={"font-inter text-lg"}>2.058 posts</p>
             </div>
         </div>
     );

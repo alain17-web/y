@@ -3,11 +3,11 @@ import SearchInput from "./SearchInput.jsx";
 
 const Topbar = () => {
     return (
-        <div className="w-full h-[52px] mt-8 px-6 flex items-center justify-between">
+        <div className="w-full h-[52px] mt-8 px-6 flex items-center justify-between fixed">
             <Link to="/">
                 <img src="./img/y.jpg" alt="y logo" width={"100px"} className="mt-5 ml-6 cursor-pointer"/>
             </Link>
-            <Link to="#" className="text-xl font-inter font-extrabold border-4 border-b-[#1B8CD8]">
+            <Link to="#" className="text-xl font-inter font-extrabold border-b-4 border-[#1B8CD8]">
                 For you
             </Link>
             <Link to="#" className="text-xl font-inter">

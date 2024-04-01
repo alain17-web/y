@@ -86,7 +86,7 @@ import { NavLink } from "react-router-dom"
             </button>
             <div className="flex items-center mt-24 justify-around">
                 <img src="./img/jsnow.webp" alt="John Snow" className="rounded-full object-cover w-full h-full"
-                     style={{width: '100px', height: '100px'}}/>
+                     style={{width: '80px', height: '80px'}}/>
                 <div>
                     <h3 className={"font-inter font-bold text-xl"}>John Snow</h3>
                     <p>@johnsnow34562</p>

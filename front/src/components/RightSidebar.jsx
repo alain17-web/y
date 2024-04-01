@@ -37,7 +37,7 @@ const RightSidebar = () => {
                         </div>
                         <button
                             className="flex w-[30%] h-12  mt-4 ml-14 justify-center items-center rounded-3xl px-6 bg-black cursor-pointer">
-                            <p className="text-xl text-white font-inter font-bold cursor-pointer">Follow</p>
+                            <p className="text-xl text-white font-inter font-bold">Follow</p>
                         </button>
                     </div>
                     <div className={"flex items-center justify-between"}>
@@ -58,7 +58,7 @@ const RightSidebar = () => {
                         </div>
                         <button
                             className="flex w-[30%] h-12  mt-4 ml-14 justify-center items-center rounded-3xl px-6 bg-black cursor-pointer">
-                            <p className="text-xl text-white font-inter font-bold cursor-pointer">Follow</p>
+                            <p className="text-xl text-white font-inter font-bold">Follow</p>
                         </button>
                     </div>
                     <div className={"flex items-center justify-between"}>
@@ -79,7 +79,7 @@ const RightSidebar = () => {
                         </div>
                         <button
                             className="flex w-[30%] h-12  mt-4 ml-14 justify-center items-center rounded-3xl px-6 bg-black cursor-pointer">
-                            <p className="text-xl text-white font-inter font-bold cursor-pointer">Follow</p>
+                            <p className="text-xl text-white font-inter font-bold">Follow</p>
                         </button>
                     </div>
                 </div>

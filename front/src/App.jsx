@@ -4,6 +4,7 @@ import Login from "./pages/Login.jsx";
 import Footer from "./components/Footer.jsx";
 import Register from "./pages/Register.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import Profile from "./components/Profile.jsx";
 
 function App() {
 
@@ -25,6 +26,14 @@ function App() {
         {
             path: "/dashboard",
             element: <Dashboard/>
+        },
+        {
+            path: "/singlePost",
+            element: <Dashboard/>
+        },
+        {
+            path: "/profile",
+            element: <Profile/>
         },
     ])
 

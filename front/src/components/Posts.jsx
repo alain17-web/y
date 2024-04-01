@@ -1,7 +1,11 @@
 import {Link} from "react-router-dom";
+
  const Posts = () => {
+
     return (
+
         <div className={"border-b-2 border-gray-100 py-4 z-10"}>
+
             <div className={"w-[90%] h-auto p-4 bg-[#EFF3F4] mx-auto rounded-md cursor-pointer"}>
                 <div className={'flex items-center justify-between'}>
                     <div className={"flex items-center"}>

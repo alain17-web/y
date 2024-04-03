@@ -1,10 +1,10 @@
 import {Outlet, RouterProvider, createBrowserRouter} from "react-router-dom"
 import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
-import Footer from "./components/Footer.jsx";
 import Register from "./pages/Register.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Profile from "./components/Profile.jsx";
+import AddPost from "./pages/AddPost.jsx";
 
 function App() {
 
@@ -34,6 +34,10 @@ function App() {
         {
             path: "/profile",
             element: <Profile/>
+        },
+        {
+            path: "/addPost",
+            element: <AddPost/>
         },
     ])
 

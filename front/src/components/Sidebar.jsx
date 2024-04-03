@@ -1,4 +1,5 @@
-import { NavLink, useLocation} from "react-router-dom";
+import { NavLink, useLocation,Link} from "react-router-dom";
+
 
 const Sidebar = () => {
 
@@ -86,10 +87,10 @@ const Sidebar = () => {
                     </svg>
                     <p className="text-3xl font-inter">More</p>
                 </NavLink>
-                <button
+                <Link to={"/addPost"}
                     className="flex w-[80%] h-14 mx-auto mt-4 justify-center items-center rounded-3xl px-6 bg-[#1B8CD8] cursor-pointer">
                     <p className="text-xl text-white font-inter font-bold">Post</p>
-                </button>
+                </Link>
                 <div className="flex items-center mt-24 justify-around">
                     <img src="./img/jsnow.webp" alt="John Snow" className="rounded-full object-cover w-full h-full"
                          style={{width: '80px', height: '80px'}}/>

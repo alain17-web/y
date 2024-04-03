@@ -1,0 +1,17 @@
+Créer des profils
+Mettre à jour toutes ou une partie des informations de son profil
+Publier des messages
+Supprimer des messages (uniquement ceux qui appartiennent à l'utilisateur)
+Suivre (mettre en favori et voir le profil) d'autres utilisateurs
+Écrire un commentaire sur une publication
+Supprimer son profil
+Pour cela, vous aurez besoin d'une base de données, vous avez carte blanche pour la conception de la DB, gardez juste à l'esprit les liaisons nécessaires entre les tables.
+
+Contraintes :
+Utilisation de JWT
+Protection de route
+Validation des inputs
+Sanitization des données
+Bonus :
+Templating ou front en JS
+Trouvez comment upload des images avec multer pour mettre des images de profiltouch .gi
